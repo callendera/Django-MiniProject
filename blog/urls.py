@@ -25,4 +25,4 @@ urlpatterns = [
     url(r'^posts/', include('posts.urls')),
     url(r'^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT})
 ]
-© 2020 GitHub, Inc.
+
